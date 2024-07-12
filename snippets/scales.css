@@ -1,0 +1,60 @@
+:root table#scale {
+    /* --table-border-radius: 5px; */
+    border-collapse: separate;
+    border-spacing: 0px;
+    border: 1px solid #a72323;
+    background-color:#681616;
+    border-radius: 5px;
+    /* margin-left: 0%; */
+}
+:root table#scale th {
+    border: none;
+}
+
+:root table#scale th.sca {
+    border-right: 1px solid #a72323;
+    text-align: center;
+}
+table td#topBord, #topBord, .sca#topBord {
+    text-align: center;
+    border-top: 1px solid #a72323;
+    border-left: none;
+    border-bottom: none;
+    border-right: 1px solid #a72323;
+    padding: 1% 1% 4px 1%;
+}
+
+:root table#scale tr#header td{
+    /* border-right: none; */
+    background-color: black;
+    /* border-spacing: 5px; */
+}
+#clefs {
+    width: 285px;
+    height: 170px
+    /* text-align: center; */
+}
+#keys {
+    width: 325px;
+    height: 175px;
+}
+
+/* Add the radius */
+/* th:first-child#scale {border-top-left-radius: var(--table-border-radius)}
+th:last-child#scale {border-top-right-radius: var(--table-border-radius)} */
+/* tr:last-child td:first-child {border-bottom-left-radius: var(--table-border-radius)}
+tr:last-child td:last-child {border-bottom-right-radius: var(--table-border-radius)} */
+  
+/* Redo the borders */
+/* :root :is(td, th) {
+    border-width: 0 var(--table-border-width) var(--table-border-width) 0;
+} */
+
+:root table#scale th.sca#topBord#clef {
+    border-top: 1px solid #a72323;
+}
+
+p#desc {
+    font-style: italic;
+    text-align: center;
+}
